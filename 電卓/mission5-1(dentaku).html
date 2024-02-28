@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>CaluculatorProgram</title>
+    <script src="mission5-1(dentaku).js"></script>
+    <link rel="stylesheet" type="text/css" href="mission5-1(dentaku).css">
+  </head>
+  <body>
+    <!-- 電卓全体 -->
+    <div class="calculator_area">
+      <!-- 電卓数値入力部分 -->
+      <div class="calc_area">
+        <input class="calcbox" id="calc">
+      </div>
+      <!-- 電卓ボタン部分 -->
+      <div class="button_area">
+        <div class="button" onclick="update('')">
+          <p class="button_text">AC</p>
+        </div>
+        <div class="button" onclick="Clear()">
+          <p class="button_text">C</p>
+        </div>
+        <div class="button" onclick="percentage()">
+          <p class="button_text">%</p>
+        </div>
+        <div class="button" onclick="inputNumber( '÷' )">
+          <p class="button_text">÷</p>
+        </div>
+        <div class="button" onclick="inputNumber( '1' )">
+          <p class="button_text">1</p>
+        </div>
+        <div class="button" onclick="inputNumber( '2' )">
+          <p class="button_text">2</p>
+        </div>
+        <div class="button" onclick="inputNumber( '3' )">
+          <p class="button_text">3</p>
+        </div>
+        <div class="button" onclick="inputNumber( '×' )">
+          <p class="button_text">×</p>
+        </div>
+        <div class="button" onclick="inputNumber( '4' )">
+          <p class="button_text">4</p>
+        </div>
+        <div class="button" onclick="inputNumber( '5' )">
+          <p class="button_text">5</p>
+        </div>
+        <div class="button" onclick="inputNumber( '6' )">
+          <p class="button_text">6</p>
+        </div>
+        <div class="button" onclick="inputNumber( '+' )">
+          <p class="button_text">+</p>
+        </div>
+        <div class="button" onclick="inputNumber( '7' )">
+          <p class="button_text">7</p>
+        </div>
+        <div class="button" onclick="inputNumber( '8' )">
+          <p class="button_text">8</p>
+        </div>
+        <div class="button" onclick="inputNumber( '9' )">
+          <p class="button_text">9</p>
+        </div>
+        <div class="button" onclick="inputNumber( '-' )">
+          <p class="button_text">-</p>
+        </div>
+        <div class="button" onclick="inputNumber( '.' )">
+          <p class="button_text">.</p>
+        </div>
+        <div class="button" onclick="inputNumber( '0' )">
+          <p class="button_text">0</p>
+        </div>
+        <div class="button" onclick="inputNumber( '00' )">
+          <p class="button_text">00</p>
+        </div>
+        <div class="button" onclick="calc()">
+          <p class="button_text">=</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

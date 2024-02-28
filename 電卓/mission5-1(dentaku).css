@@ -1,0 +1,43 @@
+.calculator_area{
+    height: 600px;
+    width: 400px;
+    border: solid 3px #000000;
+  }
+  
+  .calc_area{
+    height: 60px;
+    width: 300px;
+    border: solid 3px #000000;
+    margin-left:40px;
+    margin-top: 20px;
+  }
+  
+  .calcbox{
+    height: 53px;
+    width: 293px;
+    border:solid 0px;
+    font-size: 40px;
+  }
+  
+  .button_area{
+    margin:20px;
+    height:480px;
+    width: 350px;
+    display:flex;
+    flex-wrap: wrap;
+  }
+  
+  .button{
+    height:50px;
+    width: 15%;
+    margin-top:20px;
+    margin-left:23px;
+    border: solid 3px #000000;
+    text-align:center;
+    background-color: #000000;
+  }
+  .button_text{
+    text-align:center;
+    font-weight: bold;
+    color: #ffffff;
+  }
